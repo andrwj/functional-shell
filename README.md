@@ -10,7 +10,7 @@
 
 ```bash
 #!/bin/bash
-. <(test -e src/fun.sh || curl -Ls https://raw.githubusercontent.com/andrwj/functional-bash/master/src/fun.sh > fun.sh; cat src/fun.sh)
+. <(test -e src/fun.sh || curl -Ls https://raw.githubusercontent.com/andrwj/functional-shell/master/src/fun.sh > fun.sh; cat src/fun.sh)
 
 seq 1 4 | sum
 ```
